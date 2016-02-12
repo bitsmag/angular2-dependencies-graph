@@ -3,7 +3,7 @@
   "shortName": "ng2-deps-graph",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "built/index.js",
   "scripts": {
     "gen": "tsc && ./bin/index.js"
   },

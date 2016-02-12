@@ -10,6 +10,10 @@ export namespace App {
 	
 	export let run = (options: any) => {
 			
+		if(options.logger) {
+			logger.use(options.logger)
+		}
+
 		let files = [];
 		if(options.file) {
 			if(
